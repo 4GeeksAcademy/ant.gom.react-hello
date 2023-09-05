@@ -13,7 +13,7 @@ const Home = () => {
   
 	  // fecth
 	function getInfo() {
-	  fetch("http://playground.4geeks.com/apis/fake/sound/") //ir a busca
+	  fetch("https://playground.4geeks.com/apis/fake/sound/fx") //ir a busca
 		.then((response) => {
 		  console.log(response.status);
 		  return response.json();
